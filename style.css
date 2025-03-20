@@ -1,10 +1,8 @@
 @font-face {
   font-family: 'TT Lakes';
   src: url('/fonts/TTLakes-Italic.eot');
-  src: local('TTLakes-Italic'),
-      url('/fonts/TTLakes-Italic.ttf') format('truetype'), 
-      url('/fonts/TTLakes-Italic.woff') format('woff');
 }
+
 body {
   margin:0;
   padding:0;
