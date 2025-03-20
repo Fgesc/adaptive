@@ -1,0 +1,704 @@
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('/fonts/TTLakes-Italic.eot');
+  src: local('TTLakes-Italic'),
+      url('/fonts/TTLakes-Italic.ttf') format('truetype'), 
+      url('/fonts/TTLakes-Italic.woff') format('woff');
+}
+body {
+  margin:0;
+  padding:0;
+  width:320px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "TT Lakes";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: white;
+}
+
+.preview-card__phone-image {
+  width: 30px;
+  height:30px;
+  padding: 5px;
+  background-color: rgb(204, 243, 8);
+  border-radius: 50%;
+  border: 1px solid rgb(54, 238, 8);
+}
+
+.areas-of-work__image {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+  /* header */
+  .navbar__preview-image {
+      width: 320px;
+      height:260px ;
+      border-radius:15%;
+  }
+  .preview-card__header-info_wide_320px {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+      width:300px;
+      padding:15px;
+  }
+  .preview-card__phone-number_hidden_320px {
+      display: none;
+  }
+  .preview-card__main-info_wide_320px {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    box-sizing: border-box;
+    padding:20px;
+    width: 300px;
+    margin-left:10px;
+    margin-right:10px;
+    position: relative;
+    bottom: 100px;
+  }
+  .preview-card__main-info_style_320px {
+      border: 1px solid greenyellow;
+      border-radius:10%;
+      background-color: white;
+      
+  }
+  .preview-card__title_wide_320px {
+      margin:0;
+      padding:0;
+  }
+  .preview-card__title_style_320px {
+      font-size: 40px;
+      line-height: 45px;
+  }
+  .preview-card__paragraph_wide_320px {
+      margin:0;
+      padding:0;
+  }
+  .preview-card__paragraph_style_320px {
+      font-size:16px;
+  }
+  .preview-card__request-button_wide_320px {
+      margin:0;
+      padding:0;
+      padding: 15px 30px;
+  }
+  .preview-card__request-button_style_320px {
+      font-size: 20px;
+      background-color: rgb(127, 239, 22);
+      color: rgb(17, 99, 23);
+      border-color: rgb(0, 128, 0);
+      border-radius: 10px;
+  }
+  .navbar__users_wide_320px {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      gap:10px;
+      width:300px;
+      margin-top: -50px;
+      margin-left:auto ;
+      margin-right: auto;
+  }
+  .navbar__users-container_wide_320px {
+      box-sizing: border-box;
+      width:260px;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+  }
+  .navbar__users-container_style_320px {
+      background-color: rgb(218, 215, 21);
+  }
+  .navbar__users-title_style_320px {
+      font-size: 20px;
+      margin:0;
+      margin-bottom:10px;
+  }
+  .navbar__users-request-button_320px {
+      padding: 10px 20px;
+      font-size: 20px;
+      background-color: rgb(127, 239, 22);
+      color: rgb(17, 99, 23);
+      border-color: rgb(0, 128, 0);
+      border-radius: 10px;
+  }
+
+  .areas-of-work__wide_320px {
+      margin-top: 30px;
+      box-sizing: border-box;
+      padding: 0 10px;
+  }
+
+  .areas-of-work__title_style_320px {
+      font-size: 30px;
+      padding:0 20px ;
+      font-weight: 900;
+      line-height: 35px;
+  }
+  .areas-of-work__paragraph_style_320px {
+      font-size: 12px;
+      line-height: 18px;
+      padding:0 20px;
+  }
+
+  .areas-of-work__area-item_style_320px {
+      box-sizing: border-box;
+      width: 300px;
+      height:300px;
+      background-color: rgb(75, 209, 79);
+      border-radius: 30px;
+      margin-top: 20px;
+      padding: 20px;
+  }
+  .areas-of-work__profession-title_style_320px {
+      font-size: 25px;
+      margin: 15px;
+  }
+  .areas-of-work__profession-title_style_320px_size_s{
+      font-size: 20px;
+  }
+  .areas-of-work__about-us_style_320px {
+      margin-top: 20px;
+      background-color: rgb(218, 215, 21);
+      padding:10px 20px;
+      border-radius: 15px;
+  }
+  .areas-of-work__profession-list_style_320px {
+      margin:0;
+      padding:0;
+      padding-left: 40px;
+  }
+
+  .work-with-us_style_320px {
+      margin-top: 20px;
+      box-sizing: border-box;
+      background-color: rgb(33, 196, 74);
+      border-radius:20px;
+      padding:10px;
+  }
+  .work-with-us__title_style_320px {
+      padding:10px;
+      font-size: 25px;
+      line-height: 30px;
+  }
+  .work-with-us__paragraph_style_320px {
+      padding: 0 10px;
+      font-size: 18px;
+  }
+
+  .work-with-us__list_style_320px {
+      list-style: none;
+      margin:0;
+      margin-bottom:20px;
+      padding:0 10px;
+  }
+  .work-with-us__item_style_320px {
+      box-sizing: border-box;
+      display: flex;
+      margin-top:30px;
+      gap: 20px;
+      align-items: center;
+  }
+  .work-with-us__item-number_style_320px {
+      font-size: 40px;
+  }
+
+  .description-process-work {
+      margin-top:50px;
+      padding:0 10px ;
+  }
+  .description-process-work__list_style_320px {
+      list-style: none;
+      margin:0;
+      padding:0;
+  }
+  .description-process-work__item_style_320px {
+      margin-top:30px;
+  }
+  .description-process-work__title_style_320px {
+      margin:0px;
+      padding: 5px 10px;
+      background-color: rgb(12, 186, 17);
+      border-radius: 5px;
+      width: 75px;
+      text-align: center;
+  }
+  .description-process-work__stage_style_320px {
+      font-size: 20px;
+      margin: 10px 0;
+  }
+  .description-process-work__stage-description_style_320px {
+      font-size: 14px;
+      margin:0;
+  }
+
+  .recrut-personal_style_320px {
+      margin-top:30px;
+  }
+
+  .recrut-personal__card_style_320px {
+      background-color: rgb(218, 215, 21);
+      width: 300px;
+      box-sizing: border-box;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 4%;
+      padding:25px;
+      position: relative;
+      bottom:60px
+  }
+
+  .recrut-personal_container-image {
+      width: 320px;
+      height: 480px;
+      overflow: hidden;
+  }
+  .recrut-personal__image_style_320px {
+  width: 320px;
+  border-radius: 15px;
+  }
+  .recrut-personal__title_style_320px {
+      font-size: 40px;
+      line-height: 45px;
+      margin:0;
+      padding:0;
+  }
+  .recrut-personal__input-form_style_320px {
+      display: flex;
+      flex-wrap: wrap;
+      gap:20px;
+      justify-content: center;
+  }
+  .recrut-personal__input-form-name_style_320px {
+      width:300px;
+      padding-bottom: 20px;
+      text-align: left;
+      background-color:rgb(218, 215, 21);
+      border:2px dashed green;
+      border-left:none;
+      border-top:none;
+      border-right:none;
+  }
+  .recrut-personal__input-form-phone-number_style_320px {
+      width:300px;
+      padding-bottom: 20px;
+      text-align: left;
+      background-color: rgb(218, 215, 21);
+      border:2px dashed green;
+      border-left:none;
+      border-top:none;
+      border-right:none;
+  }
+  .recrut-personal__button-send_style_320px {
+      font-size: 25px;
+      padding: 10px 20px;
+      background-color: rgb(127, 239, 22);
+      color: rgb(17, 99, 23);
+      border-color: rgb(0, 128, 0);
+      border-radius: 10px;
+  }
+  .recrut-personal__personal-data_style_320px {
+      font-size: 14px;
+      line-height: 16px;
+      margin-top:10px;
+  }
+  .recrut-personal__personal-data-link_style_320px {
+      text-decoration:none;
+      color: black;
+  }
+
+  .footer_style_320px {
+      padding: 0 20px;
+      margin-bottom:50px;
+  }
+  .footer__description_style_320px {
+      margin:0;
+      font-size:12px;
+      line-height:16px;
+  }
+  .footer__mobile-image_style_320px {
+      background-color: rgb(127, 239, 22);
+      box-sizing: border-box;
+      width: 40px;
+      height: 40px;
+      padding: 7px;
+      border-radius:50%;
+      margin-right: 20px;
+      position: relative;
+      top: 10px;
+  }
+  .footer__link-number_style_320px {
+      text-decoration:none;
+      color: black;
+  }
+  .footer__link-email_style_320px {
+      text-decoration:none;
+      color: black;
+  }
+  .footer__publish_style_320px {
+      margin-top: 40px;
+  }
+  .footer__condition_style_320px {
+      text-decoration:none;
+      color: black;
+      font-size:12px;
+      line-height: 14px;
+  }
+  .footer__policy_style_320px {
+      text-decoration:none;
+      color: black;
+      font-size:12px;
+      line-height: 0px;
+  }
+  .footer__link-policy_style_320px {
+      text-decoration:none;
+      color: black;    
+  }
+  .footer__link-condition_style_320px {
+      text-decoration:none;
+      color: black;
+  }
+
+@media screen and (min-width: 375px)  {
+ body {
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+  .navbar__preview-image {
+      width: 375px;
+      height:300px;
+  }
+  .preview-card__header-info_wide_320px {
+      width:350px;
+  }
+  .preview-card__main-info_wide_320px {
+    width: 350px;
+    bottom: 80px;
+  }
+  .preview-card__title_style_320px {
+      font-size: 40px;
+      line-height: 45px;
+  }
+  .navbar__users_wide_320px {
+      width:350px;
+  }
+  
+  .areas-of-work__wide_320px {
+      padding: 0 10px;
+  }
+
+  .areas-of-work__area-item_style_320px {
+      width: 100%;
+      height:100%; 
+  }
+
+  .recrut-personal__card_style_320px {
+      width: 350px;
+  }
+
+  .recrut-personal__input-form-name_style_320px {
+      width:350px;
+
+  }
+  .recrut-personal__input-form-phone-number_style_320px {
+      width:350px;
+  }
+  .recrut-personal_container-image {
+      width: 370px;
+      overflow: hidden;
+  }
+  .recrut-personal__image_style_320px {
+  width: 375px;
+  border-radius: 15px;
+  }
+
+@media screen and (min-width: 425px) {
+  body {
+      width: 425px;
+      margin-left: auto;
+      margin-right: auto;
+     }
+  .navbar__preview-image {
+      width: 425px;
+      height:350px;
+  }
+  .preview-card__header-info_wide_320px {
+      width:400px;
+  }
+  .preview-card__main-info_wide_320px {
+    width: 400px;
+  }
+  .navbar__users_wide_320px {
+      width:420px;
+  }
+  
+  .recrut-personal__card_style_320px {
+      width: 400px;
+  }
+
+  .recrut-personal__input-form-name_style_320px {
+      width:400px;
+
+  }
+  .recrut-personal__input-form-phone-number_style_320px {
+      width:400px;
+  }
+  .recrut-personal_container-image {
+      width: 410px;
+      overflow: hidden;
+  }
+  .recrut-personal__image_style_320px {
+  width: 425px;
+  border-radius: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+      width: 768px;
+      margin-left: auto;
+      margin-right: auto;
+     }
+  .preview-card__header-info_wide_320px {
+      box-sizing: border-box;
+      width:300px;
+      padding-top: 30px;
+  }
+  .navbar__preview-card_size_768px {
+      position: relative;
+      top: 120px;
+      margin-left: 35px;
+      margin-right: auto;
+      background-color: rgb(238, 227, 16);
+      width: 330px;
+      height: 330px;
+      text-align: center;
+      border-radius: 10%;
+  }
+  .navbar__preview-image_wide_768px {
+      display: none;
+  }
+  .navbar_bg_768px {
+     background-image: url(/img/promo.jpg); 
+     background-repeat: no-repeat;
+     background-size: 720px;
+     background-position: 25px 20px;
+     border-radius: 15%;
+  }
+  .preview-card__main-info_wide_320px {
+      width: 310px;
+      padding:0;
+      bottom:0px;
+      left:10px;
+      border: none;
+      background-color: rgb(238, 227, 16);
+    }
+     .preview-card__title_style_768px {
+      font-size: 30px;
+      font-weight: 900;
+    }  
+    .preview-card__main-info_wide_320px {
+      width: 310px;
+      margin:0;
+    }
+    .navbar__users_wide_768px {
+      width: 768px;
+      display: flex;
+      margin-top: 180px;
+    }
+    .navbar__users-container_wide_768px {
+      width: 355px;
+    }
+    .preview-card__phone-number_active_768px {
+      position: relative;
+      bottom: 15px;
+      box-sizing: border-box;
+      display: inline-block;
+      font-size: 11px;
+      padding-right: 10px;
+      
+    }
+
+    .areas-of-work__container-title_wide_768px {
+      display: flex;
+      align-items: center;
+    }
+
+    .areas-of-work__wide_768px {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    .areas-of-work__area-list_style_768px {
+      display: grid;
+      grid-template-columns: 45% 45%;
+      grid-template-areas: "r l"
+                           "v g"
+                           "e e";
+      gap:20px;
+    }
+  .areas-of-work__profession-list_grid_1 {
+      grid-area:r;
+  }
+  .areas-of-work__profession-list_grid_2 {
+      grid-area:l;
+  }
+  .areas-of-work__profession-list_grid_3 {
+      grid-area:v;
+  }
+  .areas-of-work__profession-list_grid_4 {
+      grid-area:g;
+  }
+  .areas-of-work__profession-list_grid_5 {
+      grid-area:e;
+  }
+  .areas-of-work__about-us_style_768px {
+      margin-top:40px;
+  }
+  .areas-of-work__paragraph-about-us_style_768px {
+      text-align: center;
+      box-sizing: border-box;
+      margin-top: 60px;
+      font-size: 16px;
+  }
+  .work-with-us_style_768px {
+      margin-top: 70px;
+      border-radius:0px;
+      padding: 10px 0 30px 10px;
+  }
+  .work-with-us__title_style_768px {
+      font-size: 35px;
+  }
+  .work-with-us__paragraph_style_768px {
+      font-size: 25px;
+      line-height:30px;
+  }
+  .work-with-us__list_style_768px {
+      display: grid;
+      grid-template-columns: 47% 47%;
+      gap:10px 20px;
+  }
+  .description-process-work_wide_768px {
+      margin-left:30px;
+      margin-bottom: 50px;
+  }
+  .description-process-work__list_style_768px {
+      display: grid;
+      grid-template-columns: 47% 47%;
+      column-gap:20px;
+  }
+  .description-process-work__main-title_style_768px {
+      font-size: 30px;
+      font-weight: 900;
+      line-height: 35px;
+  }
+  .recrut-personal__image_style_768px {
+      width: 720px;
+      margin-left:24px;
+  }
+  .recrut-personal__card_style_768px {
+      width: 640px;
+      text-align: center;
+  }
+  .footer_style_768px {
+      display: flex;
+      margin-left: 10px;
+      justify-content: space-between;
+      
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+      width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+  .preview-card__header-info_wide_320px {
+      padding-left: 50px;
+      box-sizing: border-box;
+      width:400px;
+      padding-top: 60px;
+  }
+  .navbar__preview-card_size_768px {
+      position: relative;
+      top: 160px;
+      margin-left: 25px;
+      margin-right: auto;
+      background-color: rgb(238, 227, 16);
+      width: 440px;
+      height: 440px;
+      text-align: center;
+      border-radius: 10%;
+  }
+
+  .navbar_bg_768px {
+     background-image: url(/img/promo.jpg); 
+     background-repeat: no-repeat;
+     background-size: 1024px;
+     background-position: 0px 0px;
+      border-radius:0;
+  }
+  .preview-card__title_style_768px {
+      font-size: 40px;
+      font-weight: 900;
+    }  
+  .preview-card__main-info_wide_320px {
+      padding-top: 30px;
+      width: 400px;
+      margin:0;
+    }
+  .navbar__users_wide_768px {
+      width: 1024px;
+      display: flex;
+      margin-top: 260px;
+      gap: 40px;
+    }
+  .navbar__users-container_wide_768px {
+      width: 455px;
+    }
+  .preview-card__phone-number_active_768px {
+      bottom: 16px;
+      font-size: 18px;
+      padding-right: 20px;
+    }
+  .preview-card__request-button_style_1024px {
+      font-size: 35px;
+    }
+  .recrut-personal__image_style_768px {
+      width: 775px;
+      margin-left: 120px;
+  }
+  .recrut-personal__card_style_768px {
+      width: 640px;
+  }
+  .footer_style_1024px {
+      display: flex;
+      margin: 0 40px;
+      justify-content: space-between;
+  } 
+  .footer__info_flex_1024px {
+      display: flex;
+      align-items: center;
+      column-gap:  60px;
+  }
+  .footer__about-us_flex_1024px {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  .footer__logo_size_1024px {
+      width: 98px;
+      height: 52px;
+  } 
+  .footer__publish_style_1024px {
+      margin-bottom: 30px;
+  }
+  }
+}
